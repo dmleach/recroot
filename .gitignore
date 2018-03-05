@@ -9,3 +9,7 @@
 # https://stackoverflow.com/questions/29970885/cordova-5-0-0-which-files-should-i-commit-to-git
 platforms
 plugins
+
+# node_modules should be ignored according to:
+# https://stackoverflow.com/questions/18128863/should-node-modules-folder-be-included-in-the-git-repository
+node_modules
