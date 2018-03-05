@@ -1,0 +1,11 @@
+# platforms and plugins can both be ignored, so long as there's no custom
+# code in those directories. Let's never put custom code in those directories.
+#
+# When adding a plugin or platform, use the --save option to write that
+# information to config.xml. That way others can download the project and
+# have all the info they need to install those addons.
+#
+# All this information comes from:
+# https://stackoverflow.com/questions/29970885/cordova-5-0-0-which-files-should-i-commit-to-git
+platforms
+plugins
